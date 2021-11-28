@@ -104,12 +104,12 @@ frame:RegisterEvent("ADDON_LOADED")
 
 -- Actionbars scale
 MainMenuBar:SetScale(0.9)
-MultiBarBottomLeft:SetScale(0.9)
-MultiBarBottomRight:SetScale(0.9)
+MultiBarBottomLeft:SetScale(1.0)
+MultiBarBottomRight:SetScale(1.0)
 
 -- Move pet actionbar
 PetActionBarFrame:ClearAllPoints()
-PetActionBarFrame:SetPoint ("CENTER", UIParent , 400, -390)
+PetActionBarFrame:SetPoint ("CENTER", UIParent , 400, -365)
 PetActionBarFrame:SetScale(.9)
 PetActionBarFrame.ClearAllPoints = function () end
 PetActionBarFrame.SetPoint = function () end
